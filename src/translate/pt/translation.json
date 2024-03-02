@@ -1,0 +1,22 @@
+{
+  "menu": {
+    "home": "Início",
+    "projects": "Projetos",
+    "about": "Sobre"
+  },
+  "intro": {
+    "welcome": "Bem vindo ao meu portfolio",
+    "subtitle": "Clara Maestri - desenvolvedora frontend ",
+    "about": "sobre mim",
+    "projects": "meus projetos"
+  }
+  ,
+  "about": {
+    "page": "Sobre mim",
+    "title": "Olá eu sou a ",
+    "about": "about me",
+    "sub": "developer - ",
+    "text": "Inciei minha jornada como dev frontend em 2022, buscando desafios que pudesse resolver utilizando da lógica e a criatividade ao mesmo tempo. Tenho como especialidade o desenvolvimento de interfaces responsivas"
+  }
+}
+
