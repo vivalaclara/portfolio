@@ -22,6 +22,9 @@
     "text": "Inciei minha jornada como dev frontend em 2022, buscando desafios que pudesse resolver utilizando da lógica e a criatividade ao mesmo tempo. Tenho como especialidade o desenvolvimento de interfaces responsivas",
     "social": "mídias sociais",
     "alt": "Clara segurando Frodo, um gato tigrado. a imagem possui fundo redondo e roxo com lua e estrelas"
+  },
+  "footer":{
+    "message": "Desenvolvido por "
   }
 
 }

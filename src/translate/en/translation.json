@@ -22,5 +22,8 @@
     "text": "I started my journey as a frontend developer in 2022, seeking challenges that I could solve using logic and creativity at the same time. I specialize in developing responsive interfaces",
     "social": "social media",
     "alt": "Clara holding Frodo, a tabby cat. This image has a round purple background with the moon and stars"
+  },
+  "footer":{
+    "message": "Developed by "
   }
 }

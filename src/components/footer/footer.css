@@ -1,0 +1,28 @@
+.custom-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg);
+    width: 100%;
+    position: sticky;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.link-footer{
+    font-family: var(--name);
+    text-transform: capitalize;
+    color: var(--text);
+    font-size: 1.25rem;
+    padding: 0.1rem;
+    border-radius: 0.75rem;
+}
+.link-footer:hover{
+    color: var(--accent);
+    background-color: var(--bg-acc);
+}
+
+.custom-footer p{
+    text-transform: lowercase;
+    color: var(--text);
+    font-family: var(--inter);
+    font-size: 1rem;
+}
