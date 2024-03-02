@@ -19,17 +19,17 @@ export default function About(){
             <p> {t('about.text')}</p>
             <h2 id='social-title'>{t('about.social')}</h2>
             <div className='social'> 
-                <Link className='link-social' target='blank' to="https://www.linkedin.com/in/clara-maestri-681352210/">
+                <Link className='link-social' target='blank' to="https://www.linkedin.com/in/clara-maestri-681352210/" aria-label={t('redirects.linkedin')}>
                         <LinkedinLogo className='icon-social' size={50} weight="fill" />
                  </Link>
 
-                <Link className='link-social' target='blank' to="https://github.com/vivalaclara">
+                <Link className='link-social' target='blank' to="https://github.com/vivalaclara" aria-label={t('redirects.github')}>
                     <GithubLogo className='icon-social' size={50} weight="fill" />
                 </Link>
             </div>
             </div>
             <div className='about-img'>
-             <img src={clara} alt='Clara Maestri' />
+             <img src={clara} alt={t('about.alt')} />
             </div>
             </div>
         </section>

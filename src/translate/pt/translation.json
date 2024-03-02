@@ -4,6 +4,10 @@
     "projects": "Projetos",
     "about": "Sobre"
   },
+  "redirects":{
+    "github": "clique aqui para acessar meu perfil do github",
+    "linkedin": "clique aqui para acessar meu perfil do linkedin"
+  },
   "intro": {
     "welcome": "Bem vindo ao meu portfolio",
     "subtitle": "Clara Maestri - desenvolvedora frontend ",
@@ -14,10 +18,10 @@
   "about": {
     "page": "Sobre mim",
     "title": "Olá eu sou a ",
-    "about": "about me",
-    "sub": "developer - ",
+    "sub": "desenvolvedora - ",
     "text": "Inciei minha jornada como dev frontend em 2022, buscando desafios que pudesse resolver utilizando da lógica e a criatividade ao mesmo tempo. Tenho como especialidade o desenvolvimento de interfaces responsivas",
-    "social": "mídias sociais"
+    "social": "mídias sociais",
+    "alt": "Clara segurando Frodo, um gato tigrado. a imagem possui fundo redondo e roxo com lua e estrelas"
   }
 
 }
