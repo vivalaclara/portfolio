@@ -1,0 +1,19 @@
+.custom-section{
+    background-color: var(--bg-acc);
+    width: 100%;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.custom-section h1{
+    text-shadow:  #c971fc 3px 0 5px;
+    text-transform: uppercase;
+    font-size: 1.75rem;
+    font-family: var(--title);
+    color: var(--text);
+
+}
+
+.project-img{
+    width: 15rem;
+    height: 15rem;
+}

@@ -6,7 +6,7 @@ export default function Intro(){
     const { t } = useTranslation();
     return(
         <>
-        <section className='custom-intro'>
+        <section className='custom-intro' id="home">
             <img src={moon} alt='' />
             <div className='intro-text'>
             <h1>{t('intro.welcome')}</h1>

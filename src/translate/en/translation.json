@@ -25,5 +25,18 @@
   },
   "footer":{
     "message": "Developed by "
+  },
+  "projects":{
+    "page": "Projects",
+    "alt": "this image shows the project in different resolutions: mobile, desktop and tablet",
+    "solo": "individual",
+    "group": "group",
+    "floppa": "a homage to my favorite animal, the caracal, made using React",
+    "agidoc":"a prototype of a contract signing system, using React and Redux",
+    "theo": "a fan club for my dog Theo, using Angular",
+    "films": "a website for a streaming platform, using HTML/CSS/Js, JsonServer and Bootstrap",
+    "kimetsu": "a React project about the anime Demon Slayer, with a changeable theme using Styled Components",
+    "batcat": "A library of all my favorite musical genre's albuns, using React and Redux"
+
   }
 }

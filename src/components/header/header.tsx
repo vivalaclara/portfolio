@@ -42,9 +42,9 @@ export default function Header() {
             <section className='menu-sec'>
             {isMenuOpen && (
                 <div className='menu'>
-                    <a className='hrefs'>{t('menu.home')}</a>
-                    <a className='hrefs'>{t('menu.projects')}</a>
-                    <a className='hrefs'>{t('menu.about')}</a>
+                    <a className='hrefs' href='#home'>{t('menu.home')}</a>
+                    <a className='hrefs' href='#projects'>{t('menu.projects')}</a>
+                    <a className='hrefs' href="#about">{t('menu.about')}</a>
                 </div>
             )}
             </section>
