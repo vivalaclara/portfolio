@@ -28,10 +28,10 @@ export default function Header() {
                     <span> • Clara Maestri</span>
                 </div>
                 <div className='socials'>
-                    <Link className='link-dom' target='blank' to="https://www.linkedin.com/in/clara-maestri-681352210/" aria-label={t('redirects.linkedin')}>
+                    <Link className='link-dom' target='_blank' to="https://www.linkedin.com/in/clara-maestri-681352210/" aria-label={t('redirects.linkedin')}>
                         <LinkedinLogo className='icon' size={20} weight="fill" />
                     </Link>
-                    <Link className='link-dom' target='blank' to="https://github.com/vivalaclara" aria-label={t('redirects.github')}>
+                    <Link className='link-dom' target='_blank' to="https://github.com/vivalaclara" aria-label={t('redirects.github')}>
                         <GithubLogo className='icon' size={20} weight="fill" />
                     </Link>
                     <button className='menu-toggle' onClick={toggleMenu} aria-label={t('menu.toggle')}>
