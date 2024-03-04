@@ -34,9 +34,15 @@
     "floppa": "uma homenagem ao meu animal favorito, o caracal, feita usando React!",
     "agidoc":"um protótitpo de um sistema de assinatura de contratos, utilizando React e Redux",
     "theo": "fã clube para o meu cachorro Theo, utilizando Angular",
-    "films": "um website de uma plataforma de streaming, utilizando HTML/CSS/Js, JsonServer and Bootstrap",
+    "films": "um website de uma plataforma de streaming, utilizando HTML/CSS/Js, JsonServer e Bootstrap",
     "kimetsu": "um projeto React sobre o anime Demon Slayer, com um tema trocável utilizando Styled Components",
-    "batcat": "Uma biblioteca de álbuns dos meus estilos musicais preferidos, utilizando React e Redux"
+    "batcat": "Uma biblioteca de álbuns dos meus estilos musicais preferidos, utilizando React e Redux",
+    "techcat":"Um e-commerce de livraria de tecnologia, utilizando React e Redux",
+    "gym": "Dashboard de admin para uma academia, usando ContextAPI e estilizada com Styled Components",
+    "horror": "Um website de uma plataforma de streaming de filmes de terror, usando React e Redux",
+    "vet": "Um website para uma clínica veterinária, usando HTML/CSS/Js e Bootstrap, feito em um coding dojo",
+    "rick": "Site sobre a série Rick e Morty, usando ContextAPI e estilizada com Styled Components"
+
   }
 
 }

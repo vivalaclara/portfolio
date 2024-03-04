@@ -36,7 +36,12 @@
     "theo": "a fan club for my dog Theo, using Angular",
     "films": "a website for a streaming platform, using HTML/CSS/Js, JsonServer and Bootstrap",
     "kimetsu": "a React project about the anime Demon Slayer, with a changeable theme using Styled Components",
-    "batcat": "A library of all my favorite musical genre's albuns, using React and Redux"
+    "batcat": "A library of all my favorite musical genre's albuns, using React and Redux",
+    "techcat":"A technology library e-commerce, using React e Redux",
+    "gym": "An admin dashboard for a gym, using ContextAPI and styled with Styled Components",
+    "horror": "A website for a horror movie streaming platform, using React and Redux",
+    "vet": "A website for a vet clinic, using HTML/CSS/Js and Bootstrap, made in a coding dojo",
+    "rick": "Fansite about the show Rick and Morty, using ContextAPI and styled with Styled Components"
 
   }
 }

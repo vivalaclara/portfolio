@@ -3,7 +3,7 @@ import './projects.css';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import projectsData from './array';
-
+import { ArrowCircleRight, ArrowCircleLeft } from "@phosphor-icons/react";
 
 
 export default function Projects() {
@@ -34,10 +34,15 @@ export default function Projects() {
                         </Link>
                     </div>
                 </div>
+                <div className='prev-next'>
+                <button onClick={handlePreviousProject}>
+                <ArrowCircleLeft size={32} />
+                </button> 
                 
-                <button onClick={handlePreviousProject}>Previous</button> 
-                
-                <button onClick={handleNextProject}>Next</button>
+                <button onClick={handleNextProject}>
+                <ArrowCircleRight size={32} />
+                </button>
+                </div>
             </div>
         </section>
     );
