@@ -59,6 +59,7 @@
 .hrefs{
     text-transform: uppercase;
     font-family: var(--title);
+    color: var(--text);
 }
 
 .hrefs:hover{
