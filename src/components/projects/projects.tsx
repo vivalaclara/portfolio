@@ -29,7 +29,7 @@ export default function Projects() {
                         <h2>{projectsData[currentProjectIndex].name}</h2>
                         <h3>{t(`projects.${projectsData[currentProjectIndex].collab}`)}</h3>
                         <p>{t(`projects.${projectsData[currentProjectIndex].description}`)}</p>
-                        <Link className='link-project' target='blank' to={projectsData[currentProjectIndex].link}>
+                        <Link className='link-project' target='_blank' to={projectsData[currentProjectIndex].link}>
                             <button className='link-btn' aria-label={t('projects.ariaLabel')} >LINK</button>
                         </Link>
                     </div>
