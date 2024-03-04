@@ -1,8 +1,11 @@
 .custom-section{
     background-color: var(--bg-acc);
-    width: 100%;
     padding: 1rem;
     margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .custom-section h1{
     text-shadow:  #c971fc 3px 0 5px;
@@ -12,8 +15,118 @@
     color: var(--text);
 
 }
-
+.projects-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+}
 .project-img{
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    border-radius: 0.625rem;
+
+}
+.prev-next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+    padding: 1.25rem;
+    margin-bottom: 2rem;
+}
+.prev-next button{
+    background-color: var(--accent);
+    border: transparent;
+    color: var(--bg);
+    padding: 0.25rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+.prev-next button:hover{
+    color: var(--text);
+    background-color: var(--bg);
+    box-shadow:  #c971fc 3px 0 5px;
+}
+.project-item h2{
+ font-family: var(--title);
+ text-transform: uppercase;
+ margin-bottom: 0;
+}
+
+.project-item h3{
+    font-family: var(--inter);
+    text-transform: uppercase;
+    font-weight: 400;
+    background-color: var(--bg-acc);
+    color: var(--accent);
+    border-radius: 1rem;
+    padding: 0.05rem;
+    font-size: 0.75rem;
+    width: 7.5rem;
+    text-align: center;
+    align-self: center;
+    margin: 0;
+   }
+.project-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.project-description p{
+    font-family: var(--inter);
+    width: 95%;
+    height: 95%;
+    font-size: 1rem;
+}
+.project-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--accent);
+    color: var(--bg);
+    height: 32.5rem;
+    width: 30rem;
+    border-radius: 0.625rem;
+    padding: 1rem;
+}
+
+.link-btn{
+    font-family: var(--title);
+    color: var(--accent);
+    background-color: var(--bg-acc);
+    padding: 0.5rem;
+    border: transparent;
+    border-radius: 1rem;
+    width: 5rem;
+    
+}
+.link-btn:hover{
+    background-color: var(--text);
+    color: var(--bg);
+}
+
+@media (max-width: 767px){
+    .projects-container{
+        width: 100%;
+    }
+
+    .project-img{
+        width: 15rem;
+    }
+    .project-description p{
+        width: 75%;
+        height: 75%;
+        font-size: 1rem;
+    }
+    .project-item{
+    
+        height: 28.5rem;
+        width: 20rem;
+    
+    }
 }

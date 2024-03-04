@@ -24,22 +24,23 @@ export default function Projects() {
             <h1>{t('projects.page')}</h1>
             <div className='projects-container'>
                 <div className='project-item'>
-                    <img className='project-img' src={projectsData[currentProjectIndex].imageUrl} alt={t('projects.alt')} />
+                <img className='project-img' src={projectsData[currentProjectIndex].imageUrl} alt={t('projects.alt')} loading='lazy' />
                     <div className='project-description'>
                         <h2>{projectsData[currentProjectIndex].name}</h2>
                         <h3>{t(`projects.${projectsData[currentProjectIndex].collab}`)}</h3>
                         <p>{t(`projects.${projectsData[currentProjectIndex].description}`)}</p>
                         <Link className='link-project' target='blank' to={projectsData[currentProjectIndex].link}>
-                            <button>LINK</button>
+                            <button className='link-btn' aria-label={t('projects.ariaLabel')} >LINK</button>
                         </Link>
                     </div>
+                  
                 </div>
                 <div className='prev-next'>
-                <button onClick={handlePreviousProject}>
+                <button onClick={handlePreviousProject} aria-label={t('projects.prev')}>
                 <ArrowCircleLeft size={32} />
                 </button> 
                 
-                <button onClick={handleNextProject}>
+                <button onClick={handleNextProject} aria-label={t('projects.next')}>
                 <ArrowCircleRight size={32} />
                 </button>
                 </div>

@@ -29,7 +29,7 @@ export default function About(){
             </div>
             </div>
             <div className='about-img'>
-             <img src={clara} alt={t('about.alt')} />
+             <img src={clara} alt={t('about.alt')} loading='lazy' />
             </div>
             </div>
         </section>

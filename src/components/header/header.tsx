@@ -20,8 +20,8 @@ export default function Header() {
         <header className='header-container'>
             < div className='custom-header'>
                 <div className='languages'>
-                    <button onClick={() => changeLanguage('pt')}>PT</button>
-                    <button onClick={() => changeLanguage('en')}>EN</button>
+                    <button onClick={() => changeLanguage('pt')} aria-label={t('redirects.pt')}>PT</button>
+                    <button onClick={() => changeLanguage('en')} aria-label={t('redirects.en')}>EN</button>
                 </div>
                 <div className='logo'>
                     <MoonStars className='icon' size={25} weight="fill" />
@@ -34,7 +34,7 @@ export default function Header() {
                     <Link className='link-dom' target='blank' to="https://github.com/vivalaclara" aria-label={t('redirects.github')}>
                         <GithubLogo className='icon' size={20} weight="fill" />
                     </Link>
-                    <button className='menu-toggle' onClick={toggleMenu}>
+                    <button className='menu-toggle' onClick={toggleMenu} aria-label={t('menu.toggle')}>
                         <List className='icon' size={25} weight="fill" />
                     </button>
                 </div>

@@ -3,17 +3,21 @@
   "menu": {
     "home": "Home",
     "projects": "Projects",
-    "about": "About"
+    "about": "About",
+    "toggle": "open menu"
   },
   "redirects":{
     "github": "click here to access my github profile",
-    "linkedin": "click here to access my linkedin profile"
-  },
+    "linkedin": "click here to access my linkedin profile",
+    "en": "translate to english",
+    "pt": "translate to brazilian portuguese"
+    },
   "intro": {
     "welcome": "Welcome to my portfolio",
     "subtitle": "Clara Maestri - frontend developer",
     "about": "about me",
-    "projects": "my projects"
+    "projects": "my projects",
+    "alt": "a gif of the moon and clouds"
   },
   "about": {
     "page": "About me",
@@ -30,6 +34,9 @@
     "page": "Projects",
     "alt": "this image shows the project in different resolutions: mobile, desktop and tablet",
     "solo": "individual",
+    "ariaLabel": "click here to view the project",
+    "prev": "view previous project",
+    "next": "view next project",
     "group": "group",
     "floppa": "a homage to my favorite animal, the caracal, made using React",
     "agidoc":"a prototype of a contract signing system, using React and Redux",

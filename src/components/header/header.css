@@ -80,3 +80,9 @@
 .menu-toggle:hover{
     background-color: var(--bg-acc);
 }
+
+@media (max-width: 767px){
+    .socials, .languages{
+        gap: 0.25rem;
+    }
+}

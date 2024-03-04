@@ -2,17 +2,21 @@
   "menu": {
     "home": "Início",
     "projects": "Projetos",
-    "about": "Sobre"
+    "about": "Sobre",
+    "toggle": "abrir menu"
   },
   "redirects":{
     "github": "clique aqui para acessar meu perfil do github",
-    "linkedin": "clique aqui para acessar meu perfil do linkedin"
+    "linkedin": "clique aqui para acessar meu perfil do linkedin",
+    "en": "traduzir para o inglês",
+    "pt": "traduzir para o português brasileiro"
   },
   "intro": {
     "welcome": "Bem vindo ao meu portfolio",
     "subtitle": "Clara Maestri - desenvolvedora frontend ",
     "about": "sobre mim",
-    "projects": "meus projetos"
+    "projects": "meus projetos",
+    "alt": "gif de uma lua com nuvens"
   }
   ,
   "about": {
@@ -29,6 +33,9 @@
   "projects":{
     "page": "Projetos",
     "alt": "a imagem mostra o projeto em diferentes resoluções: mobile, desktop e tablet",
+    "ariaLabel": "clique aqui para visualizar o projeto",
+    "prev": "ver projeto anterior",
+    "next": "ver próximo projeto",
     "solo": "individual",
     "group": "em grupo",
     "floppa": "uma homenagem ao meu animal favorito, o caracal, feita usando React!",

@@ -7,7 +7,7 @@ export default function Intro(){
     return(
         <>
         <section className='custom-intro' id="home">
-            <img src={moon} alt='' />
+            <img src={moon} alt={t('intro.alt')} loading='lazy' />
             <div className='intro-text'>
             <h1>{t('intro.welcome')}</h1>
             <h2>{t('intro.subtitle')} </h2>
